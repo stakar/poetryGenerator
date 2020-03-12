@@ -1,4 +1,4 @@
-
+from .clean_doc import *
         
 class sentenceModel(object):
     
