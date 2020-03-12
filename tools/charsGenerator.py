@@ -145,6 +145,6 @@ class generateNetChars(object):
                     sys.stdout.write(next_char)
                     sys.stdout.flush()
                 print()
-                neural_texts.append({diversity:generated})
+            neural_texts.append({diversity:generated})
             
         return neural_texts
